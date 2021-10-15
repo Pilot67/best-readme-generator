@@ -66,9 +66,8 @@ Published Link: https://pilot67.github.io/06-unique-weather-forecast/
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Questions
-My github profile can be found [here](https://github.com/${github})<br>
 
 <p align="right">(<a href="#top">back to top</a>)</p><br>
-
+My Github profile can be found here
 
 [license-shield]: https://img.shields.io/badge/Licence-GOOFY-brightgreen?style=plastic
