@@ -29,7 +29,7 @@ Weather forecast page with current and 5 day outlook.
 <hr/>
 <br>
 
-# Installation  
+## Installation  
 World Weather Forecast showing the current weather for a city along with the 5 day forecast.  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
