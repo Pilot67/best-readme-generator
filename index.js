@@ -11,7 +11,7 @@ const promptResponse =() => {
         {
             type: 'input',
             name: 'description',
-            message: 'Type in a good description for this project',
+            message: 'Type in a good description for this project -',
         },
         {
             type: 'list',
@@ -19,12 +19,34 @@ const promptResponse =() => {
             message: 'What licence is being used',
             choices: ['MIT','junk','other'],
         },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your Github user name?',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your Email address?',
+        },
+        {
+            type: 'input',
+            name: 'deployed',
+            message: 'Waht is the deployed website link?',
+        },
+
     ]);
 };
 
-const init =() => {
-    promptResponse()
-    .then((answers) => console.log(answers))
+const readmeVar = ({github,email,deployed}) => {
+    const temp = `my Github address is https://github.com/${github}`
+    console.log(temp);
+    console.log(answers);
 };
 
-init();
+
+
+(() => {
+    promptResponse()
+    .then ((answers) => readmeVar(answers))
+})();
