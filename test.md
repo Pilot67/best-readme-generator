@@ -1,15 +1,17 @@
-`<div id="top"></div>  
+<div id="top"></div>  
 
 ![MIT License][license-shield]
 
 <br>
 <br>
 
-# ${title}
+# Awesome Project
 <br>
 
 # Description  
-${description}<br>
+My destription
+
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <details>
@@ -29,11 +31,13 @@ ${description}<br>
 <br>
 
 ## Installation  
-${installation}<br>
+Heaps of installs
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Usage
-${usage}<br>
+Lots of uses
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Licence
@@ -41,21 +45,22 @@ ${usage}<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Contributing
-${contributing}<br>
+When contributing to this repository, please first discuss the change you wish to make via email
+with the owners of this repository before making a pull request<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Tests
-${tests}<br>
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Links
-Published Link: ${link}<br>
+Published Link: https://www.hellthyjunkfood.com/boneless-buffalo-wings<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 ## Questions
-My github profile can be found [here](https://github.com/${github})<br>
-If you would like to contact me directly please email me at ${email}<br>
+My github profile can be found [here](https://github.com/pilot67)<br>
+If you would like to contact me directly please email me at stuart@simmons1.net<br>
 <p align="right">(<a href="#top">back to top</a>)</p><br>
 
 
-[license-shield]: https://img.shields.io/badge/Licence-${licence}-brightgreen?style=plastic`
+[license-shield]: https://img.shields.io/badge/Licence-MIT-brightgreen?style=plastic
