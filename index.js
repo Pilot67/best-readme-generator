@@ -6,6 +6,12 @@ const promptResponse = () => {
   return inquirer.prompt([
     {
       type: "input",
+      name: "name",
+      message: "What is your name?",
+      default: "Stuart Simmons",
+    },
+    {
+      type: "input",
       name: "title",
       message: "What is the project title?",
       default: "AWESOME TITLE",
@@ -38,13 +44,14 @@ const promptResponse = () => {
       type: "editor",
       name: "tests",
       message: "List and test applications and how to use them here -",
+      default: "No test files yet, check again soon",
     },
     {
       type: "editor",
       name: "contributing",
       message: "Confirm how to contribute to this repository -",
       default:
-        "When contributing to this repository, please first discuss the change you wish to make via email<br>with the owners of this repository before making a pull request",
+        "When contributing to this repository, please first discuss the change you wish to make via email  with the owners of this repository before making a pull request",
     },
     {
       type: "input",
@@ -55,6 +62,7 @@ const promptResponse = () => {
       type: "input",
       name: "email",
       message: "What is your Email address?",
+      default: "developer@simmons1.net",
       validate: (email) => {
         valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
         if (valid) {
@@ -69,6 +77,7 @@ const promptResponse = () => {
       type: "input",
       name: "link",
       message: "What is the deployed website link?",
+      default: "https://pilot67.github.io/",
     },
   ]);
 };
@@ -76,7 +85,7 @@ const promptResponse = () => {
 (() => {
   promptResponse().then((answers) => {
     const newReadmeContent = generateMarkdown(answers)
-    fs.writeFile("test.md", newReadmeContent, (err) =>
+    fs.writeFile("./output/README.md", newReadmeContent, (err) =>
       err ? console.log(err) : console.log("Successfully created index.html!")
     );
   });
