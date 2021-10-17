@@ -57,6 +57,7 @@ const promptResponse = () => {
       type: "input",
       name: "github",
       message: "What is your Github user name?",
+      default: "Pilot67",
     },
     {
       type: "input",
