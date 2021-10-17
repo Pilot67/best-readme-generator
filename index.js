@@ -38,7 +38,7 @@ const promptResponse = () => {
       type: "list",
       name: "licence",
       message: "What licence is being used",
-      choices: ["MIT", "Apache-2.0", "other"],
+      choices: ["MIT", "Apache-2.0", "none"],
     },
     {
       type: "editor",

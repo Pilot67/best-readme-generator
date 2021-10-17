@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-[![MIT License][license-shield]](#licence)
+[![Github Licence](https://img.shields.io/badge/license-MIT-blue.svg)](#licence)
 
 
 # best-readme-generator
