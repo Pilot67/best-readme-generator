@@ -1,28 +1,26 @@
 
 const renderLicenseBadge =  (licence) => {
-  console.log(licence)
   switch (licence) {
     case "Apache-2.0":
-      return `[![License](https://img.shields.io/badge/Licence-Apache--2.0-brightgreen?style=plastic)](#licence)`;
+      return `[![License](https://img.shields.io/badge/Licence-Apache--2.0-brightgreen?style=plastic)](#licence)  `;
     case "none":
       return ``
     default: 
-      return `[![License](https://img.shields.io/badge/Licence-${licence}-brightgreen?style=plastic)](#licence)`;
+      return `[![License](https://img.shields.io/badge/Licence-${licence}-brightgreen?style=plastic)](#licence)  `;
   }
 }
 
 function generateMarkdown(data) {
   return `<div id="top"></div>  
 
-  ${renderLicenseBadge(data.licence)}
+${renderLicenseBadge(data.licence)}
   
-  <br>
-  <br>
-  
-  # ${data.title}
-  <br>
-  
-  ## Table of Contents
+<br>
+
+# ${data.title}  
+<br>
+
+## Table of Contents
   
   * [Description](#description)
   * [Installation](#installation)
@@ -33,47 +31,46 @@ function generateMarkdown(data) {
   * [Links](#links)
   * [Questions](#questions)
   
-  <br>
+<br>
 
-  ## Description  
-  ${data.description}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Description  
+${data.description}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
   
-  ## Installation  
-  ${data.installation}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Installation  
+${data.installation}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Usage
-  ${data.usage}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Usage
+${data.usage}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Licence
-  ${renderLicenseSection(data.licence, data.name)}
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Licence
+${renderLicenseSection(data.licence, data.name)}
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Contributing
-  ${data.contributing}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Contributing
+${data.contributing}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Tests
-  ${data.tests}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Tests
+${data.tests}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Links
-  Published Link: ${data.link}<br>
-  <p align="right">(<a href="#top">back to top</a>)</p>
+## Links
+Published Link: ${data.link}<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## Questions
-  Please direct any questions my Github profile or diret email.  
-  My github profile, ${data.github}, can be found [here](https://github.com/${data.github})  
-  If you would like to contact me directly please email me at ${data.email}  
-  <p align="right">(<a href="#top">back to top</a>)</p>  
-  `
+## Questions
+Please direct any questions my Github profile or diret email.  
+My github profile, ${data.github}, can be found [here](https://github.com/${data.github})  
+If you would like to contact me directly please email me at ${data.email}  
+<p align="right">(<a href="#top">back to top</a>)</p>  
+`
 };
 
 const renderLicenseSection = (licence,name) => {
-  console.log(licence,name);
   if (licence === "Apache-2.0") {
     return `Copyright 2021 ${name}  
   Licensed under the Apache License, Version 2.0 (the "License");  

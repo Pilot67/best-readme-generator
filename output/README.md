@@ -20,7 +20,7 @@
   
   <br>
 
-## Description  
+  ## Description  
   This software generates a quality README.md file  
 The software runs from the terminal using node.js. You will be guided through a series of  
 prompts which will be transferred to the newly generated README.md file.
@@ -28,15 +28,15 @@ prompts which will be transferred to the newly generated README.md file.
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
-## Installation  
-This software requires the following:  
+  ## Installation  
+  This software requires the following:  
  1. npm  
  2. node.js  
  3. inquirer.js  
  4. fs.js (filesystem)  
 You can check if you already have node and npm installed by entering the following commands:  
- * node -v  
- * npm -v  
+node -v  
+npm -v  
   
 Some useful links:  
 [npm](https://www.npmjs.com/)  
@@ -48,7 +48,7 @@ Some useful links:
   To start the software, enter 'node index.js' from the terminal.  
 You will be prompted for the following items  
   
-(./assets/screenPrompts.png)
+[insert screenshot here]  
 
 The email address must be a valid email for example test@gmail.com  
 
