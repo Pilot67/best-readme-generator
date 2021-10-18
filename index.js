@@ -88,7 +88,7 @@ const promptResponse = () => {
   promptResponse().then((answers) => {
     const newReadmeContent = generateMarkdown(answers)
     fs.writeFile("./output/README.md", newReadmeContent, (err) =>
-      err ? console.log(err) : console.log("Successfully created index.html!")
+      err ? console.log(err) : console.log("Successfully created README.md!")
     );
   });
 })();
