@@ -31,7 +31,7 @@ const promptResponse = () => {
     {
       type: "editor",
       name: "usage",
-      message: "Descriptive the usage of this project -",
+      message: "Describe how to sucessfully use this software -",
       default: "This section describes how to use the project",
     },
     {
