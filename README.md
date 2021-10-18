@@ -5,7 +5,7 @@
 <br>
 
 # BEST README FILE GENERATOR  
-<br>
+<br>Cancel changes
 
 ## Table of Contents
 
@@ -36,9 +36,9 @@ This software requires the following:
 2. node.js  
 3. inquirer.js  
 4. fs.js (filesystem)  
-You can check if you already have node and npm installed by entering the following commands:  
-* node -v  
-* npm -v  
+You can check if you already have node and npm installed by entering the following terminal commands:  
+node -v  
+npm -v  
   
 Some useful links:  
 [npm](https://www.npmjs.com/)  
