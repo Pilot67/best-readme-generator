@@ -53,9 +53,9 @@ You will be prompted for the following items
 ![screenPrompts](https://user-images.githubusercontent.com/86697483/137821501-4a986a6b-4730-4213-a3f8-92a18f777a88.png)
   
 The email address must be a valid email for example test@gmail.com.  
-Upon completion, if successful you will see 'Successfully created README.md!'
-If not sucessful, an error will be displayed in the terminal window.
-
+Upon completion, if successful you will see 'Successfully created README.md!'  
+If not sucessful, an error will be displayed in the terminal window.  
+  
 A new README.md file will be generated and will be located in the 'output' folder.  
 <br>
 <p align="right">(<a href="#top">back to top</a>)</p>
