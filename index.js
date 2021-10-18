@@ -26,7 +26,7 @@ const promptResponse = () => {
       type: "editor",
       name: "installation",
       message: "What are the installation requirements for this project -",
-      default: "Lots of installation instructions here",
+      default: "The installation of this software is as follows:",
     },
     {
       type: "editor",
@@ -51,7 +51,8 @@ const promptResponse = () => {
       name: "contributing",
       message: "Confirm how to contribute to this repository -",
       default:
-        "When contributing to this repository, please first discuss the change you wish to make via email  with the owners of this repository before making a pull request",
+  `When contributing to this repository, please first discuss the change you wish to make via email  
+  with the owners of this repository before making a pull request`,
     },
     {
       type: "input",

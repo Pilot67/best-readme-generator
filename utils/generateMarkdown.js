@@ -1,5 +1,6 @@
 
 const renderLicenseBadge =  (licence) => {
+  console.log(licence)
   switch (licence) {
     case "Apache-2.0":
       return `[![License](https://img.shields.io/badge/Licence-Apache--2.0-brightgreen?style=plastic)](#licence)`;
