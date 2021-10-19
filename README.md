@@ -50,7 +50,7 @@ Some useful links:
 To start the software, enter 'node index.js' from the terminal.  
 You will be prompted for the following items  
   
-![screenPrompts](https://user-images.githubusercontent.com/86697483/137821501-4a986a6b-4730-4213-a3f8-92a18f777a88.png)
+![Screen Shot 2021-10-19 at 11 00 07 am](https://user-images.githubusercontent.com/86697483/137823751-8f3b11fe-58b5-4547-b32c-27f04ff1e43e.png)
   
 The email address must be a valid email for example test@gmail.com.  
 Upon completion, if successful you will see 'Successfully created README.md!'  
