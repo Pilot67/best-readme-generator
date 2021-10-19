@@ -85,8 +85,10 @@ Test files will be located in the 'test' folder.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Links
-Published Link: none  
 Github Link: https://github.com/Pilot67/best-readme-generator  
+Sample README.md: https://github.com/Pilot67/best-readme-generator/blob/main/output/README.md  
+Video Tutorial: [Screencastify video](https://drive.google.com/file/d/1lSaWnZvBpnXq46RdcfNrUFZ87hZqYJsS/view?usp=sharing)  
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Questions
