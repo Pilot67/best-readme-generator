@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fsPromises = require("fs/promises");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown")
 
@@ -87,8 +87,9 @@ const promptResponse = () => {
 (() => {
   promptResponse().then((answers) => {
     const newReadmeContent = generateMarkdown(answers)
-    fs.writeFile("./output/README.md", newReadmeContent, (err) =>
-      err ? console.log(err) : console.log("Successfully created README.md!")
-    );
-  });
+    fsPromises.writeFile("./output/README.md", newReadmeContent)
+    .then(() => console.log("Successfully created README.md!"))
+    .catch((err) => console.log("Error writing file, ",err));
+  })
+  .catch((err) => console.log("Inquirer error :",err));
 })();
