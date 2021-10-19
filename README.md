@@ -47,6 +47,8 @@ Some useful links:
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Usage
+Here is a link to a [video tutorial](https://drive.google.com/file/d/1lSaWnZvBpnXq46RdcfNrUFZ87hZqYJsS/view?usp=sharing)  
+
 To start the software, enter 'node index.js' from the terminal.  
 You will be prompted for the following items  
   
