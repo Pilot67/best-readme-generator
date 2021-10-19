@@ -85,8 +85,12 @@ const promptResponse = () => {
 };
 
 (() => {
-  promptResponse().then((answers) => {
+  promptResponse()
+  .then((answers) => {
     const newReadmeContent = generateMarkdown(answers)
+    return newReadmeContent
+  })
+  .then((newReadmeContent) => {
     fsPromises.writeFile("./output/README.md", newReadmeContent)
     .then(() => console.log("Successfully created README.md!"))
     .catch((err) => console.log("Error writing file, ",err));
